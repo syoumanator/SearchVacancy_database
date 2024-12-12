@@ -17,6 +17,10 @@ isort = "^5.13.2"
 mypy = "^1.13.0"
 flake8 = "^7.1.1"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
